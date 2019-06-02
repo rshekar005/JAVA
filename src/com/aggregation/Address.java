@@ -2,7 +2,7 @@ package com.aggregation;
 /**
  * 
  * @author Shekhar
- * Aggregation -- Aggregation maintains HAS-A relationship.
+ * Aggregation -- Aggregation maintains HAS-A relationship.Nothing but composition
  *                If a class as an entity is called aggregation.
  * Why Aggregation -- Code re-usability.
  * 
