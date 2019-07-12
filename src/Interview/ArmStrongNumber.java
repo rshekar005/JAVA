@@ -20,11 +20,11 @@ public class ArmStrongNumber
 	  }
 	  if(cube==temp)
 	  {
-		  System.out.println(cube +" is an armstrong number");
+		  System.out.println(temp +" is an armstrong number");
 	  }
 	  else
 	  {
-		  System.out.println(cube +"is not a armstrong number");
+		  System.out.println(temp +" is not a armstrong number");
 	  }  
   }
   
