@@ -30,6 +30,7 @@ public class Test
 	//	c2.theftSafety(); A parent cannot inherit some properties of child class.
 		
 		//Down Casting --> Degrading parent class to child class. At runtime it will throw class cast exception
+		//If we perform downcasting by typecasting, ClassCastException is thrown at runtime.
 		BMW b1 =(BMW)new Car();// Throws ClasscastException
 	
 	}
