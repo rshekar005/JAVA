@@ -2,7 +2,7 @@ package com.binding;
 /**
  * 
  * @author Shekhar
- *  Static binding -- When type of an object is determined at compile time is called as static binding9Early binding)
+ *  Static binding -- When type of an object is determined at compile time is called as static binding(Early binding)
  *  If there is any private, final or static method in a class, there is static binding.
  */
 public class Dog 
