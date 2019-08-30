@@ -36,7 +36,7 @@ package com.exceptionhandling;
    Throw Keyword:
    The Java throw keyword is used to explicitly throw an exception.
 
-We can throw either checked or uncheked exception in java by throw keyword. 
+We can throw either checked or unchecked exception in java by throw keyword. 
  *    
  */
 public class javaExceptionExample 
