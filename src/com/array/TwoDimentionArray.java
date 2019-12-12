@@ -1,5 +1,10 @@
 package com.array;
-
+/**
+ * 
+ * @author Shekhar
+ * Two dimensional array means with multiple set of rows and columns
+ *
+ */
 public class TwoDimentionArray {
 	public static void main(String args[]) {
 		int a[][] = new int[3][2];// Two Dimension array. here 3 represent rows
