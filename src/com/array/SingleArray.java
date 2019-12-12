@@ -5,6 +5,7 @@ public class SingleArray
 	
 	/* Array is a collection of similar types of data types.-- it can be achieved using Object. It will store any type of data type object.
 	 * limitation of Array is it is fixed length
+	 * Single Array means single row with multiple columns
 	 */
 public static void main(String[] args)
 {
