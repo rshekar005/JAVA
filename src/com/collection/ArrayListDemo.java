@@ -17,6 +17,8 @@ import java.util.ArrayList;
  * For Retrieval purpose ArrayList is recommended.
  * For Insertion or deletion purpose ArrayList is not recommended because it requires several shift operations. 
  * Objects in ArrayList is not safe as multiple threads executes simultaneously at a time. Hence objects in ArrayList is not thread-safe and it is synchronization.
+ * Non-Synchroniztion -- Multiple Threads can access at a same time. Hence synchronization is not thread-safe.Performance is high.
+ * All methods are non-synschronized.
  */
 public class ArrayListDemo {
 
