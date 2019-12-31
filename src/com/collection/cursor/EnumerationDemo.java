@@ -15,6 +15,7 @@ import java.util.Vector;
  * Enumeration -- It is application only for legacy classes like vector,stack etc.
  *             -- Using Enumeration we can do only read operations.
  *             -- Enumeration is not applicable for universal interfaces/classes.
+ *             -- Enumaration traverse objects in forward direction
  */
 public class EnumerationDemo {
 
