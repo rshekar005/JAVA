@@ -21,9 +21,12 @@ public class Testimmutablestring {
 	public static void main(String[] args) 
 	{
 		String s= "Raja";
+		String s2="Raja";
 		s.concat("shekar");
+		System.out.println(s);
 		s=s.concat("Raju");// Here 
 		System.out.println(s);
+		System.out.println(s2);
 
 	}
 
