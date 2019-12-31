@@ -6,6 +6,8 @@ import java.util.LinkedList;
  * 
  * @author Shekhar
  * Underlying data structure of linked list is Double Linked list.
+ * LinkedList internally uses a doubly linked list to store the elements.
+ * Manipulation with LinkedList is faster than ArrayList because it uses a doubly linked list, so no bit shifting is required in memory
  * If we want to represent a group of elements as a single entity then we should go for list.
  * It is suitable when operation is insertion or deletion.
  * Duplicates are allowed.

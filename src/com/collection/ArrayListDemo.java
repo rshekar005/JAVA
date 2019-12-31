@@ -14,6 +14,7 @@ import java.util.ArrayList;
  * List is a child interface of collection.
  * If we want to represent a group of individual objects as a single entity where duplicates are allowed and insertion is preserved then we should go for list interface.
  * Datastructure is Resizable Array or Growable Array.
+ * ArrayList internally uses a dynamic array to store the elements.	
  * For Retrieval purpose ArrayList is recommended.
  * For Insertion or deletion purpose ArrayList is not recommended because it requires several shift operations. 
  * Objects in ArrayList is not safe as multiple threads executes simultaneously at a time. Hence objects in ArrayList is not thread-safe and it is synchronization.
