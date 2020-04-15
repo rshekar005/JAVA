@@ -21,6 +21,8 @@ public class StackDemo
 		System.out.println(s);
 		System.out.println(s.search("c"));//It will search from top.
 		System.out.println(s.peek());
+		
+	
 	}
 
 }

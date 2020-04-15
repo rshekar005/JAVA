@@ -18,6 +18,7 @@ public class StringManipulation
 		
 		System.out.println(str.indexOf("Hello")); //It will return -1 because there is no string 
 		
+		System.out.println(str.replaceAll(" ", ""));
 		
 	}
 

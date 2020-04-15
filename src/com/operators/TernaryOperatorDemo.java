@@ -11,12 +11,12 @@ public class TernaryOperatorDemo
 	public static void main(String args[])
 	{
 		int num=21;
-		/*num=(num==20) ? 100 :200;
+		num=(num==20) ? 100 :200;
 		System.out.println(num);//Here num is not equal to 20, hence it returing false statement
-*/		
-		num=(num==21)? 100:200;
 		
-		System.out.println(num);// Here it will return 100 because it is returning true
+		/*num=(num==21)? 100:200;
+		
+		System.out.println(num);*/// Here it will return 100 because it is returning true
 	}
 
 	

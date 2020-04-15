@@ -14,7 +14,7 @@ public class SquarePattern
 				//Here if we use println then control goes to next line. Hence used print to print output in same line
 			//System.out.print(j +" ");
 			
-			System.out.print("* ");
+			System.out.print(j+ " ");
 				
 			}
 			System.out.println();
