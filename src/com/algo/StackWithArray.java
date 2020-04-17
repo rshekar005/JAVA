@@ -18,8 +18,8 @@ package com.algo;
 public class StackWithArray 
 {
 	int size;
-	int top;
-	int arr[];
+	static int top;
+	static int arr[];
 	
 	public StackWithArray(int size)
 	{
@@ -27,7 +27,7 @@ public class StackWithArray
 		this.top=-1; //Empty array
 		this.arr= new int[size];
 	}
-	
+		
 	//Here time complexity is O(1) as there is no for loop
 	public void push(int element)// Inserts element into stack
 	{
@@ -44,7 +44,7 @@ public class StackWithArray
 		
 	}
 	
-	public void pop()
+	public void pop()// This method removes top value 
 	{
 		if(!isEmpty())
 		{
@@ -95,7 +95,7 @@ public class StackWithArray
 		stack.push(300);
 		stack.peek();
 		stack.pop();
-		stack.pop();
+		System.out.println(arr[top]);
 	}
 	
 
