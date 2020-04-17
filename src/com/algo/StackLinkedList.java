@@ -1,7 +1,5 @@
 package com.algo;
 
-import javax.swing.Popup;
-
 public class StackLinkedList {
 	Node head;  // Here Linked list linked with other linked list.Here linked list has two parts called value and head.
 	//Node = value + head.
