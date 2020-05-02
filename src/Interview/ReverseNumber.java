@@ -8,7 +8,8 @@ public class ReverseNumber
 		int reverse=0;
 		while(num!=0)
 		{
-			reverse=reverse*10+num%10;
+			int n=num%10;
+			reverse=reverse*10 +n;
 			num=num/10;
 			
 		}

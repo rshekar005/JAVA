@@ -9,7 +9,7 @@ package com.algo;
  * efficient data structures are a key to designing efficient algorithms.
 
  * Implementing stack using Array 
- * Stack -- LIFO
+ * Stack -- LIFO -- Last element which is inserted will removed first
  * 
  * Push -- Enter the data from top to down
  * Pop  -- Popping the element from top
