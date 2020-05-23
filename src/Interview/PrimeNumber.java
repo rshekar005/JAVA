@@ -32,8 +32,8 @@ public class PrimeNumber
 	public static void main(String args[])
 	{
 		//System.out.println(isPrimeNumber(2));
-        System.out.println(isPrimeNumber(5));	
-        getPrimeNumbers(20);
+        System.out.println(isPrimeNumber(8));	
+      //  getPrimeNumbers(20);
 	}
 
 }

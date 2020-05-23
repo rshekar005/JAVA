@@ -36,14 +36,14 @@ return toHexString(mac.doFinal(data.getBytes()));
 }
 
 public static void main(String[] args) throws Exception {
-System.out.println("SHA1 ------> " + getHMAC_sha1("5e81c9fe970f844ca1f63296+client_id_0K9bTcgnGHOkzyhX7560wZaBrYPxSQtVNUfLdmjI", "client_secret_i5l41AsY6aeBDr0SpWPFKN72uoJ80XbjECVQn3Mq"));
-System.out.println("SHA256 ----> " + getHMAC_sha256("5e81c9fe970f844ca1f63296+client_id_0K9bTcgnGHOkzyhX7560wZaBrYPxSQtVNUfLdmjI", "client_secret_i5l41AsY6aeBDr0SpWPFKN72uoJ80XbjECVQn3Mq"));
+System.out.println("SHA1 ------> " + getHMAC_sha1("5e7bb2ff6016bd6a379a2fcd+client_id_j6kV25MAYNUg7u0Xy3eI0tvFirTsmoPWfaGhcHDQ", "client_secret_6yG4kfLwRpreIKNQaW8JOhBAFqnPd9cjTmgbsZ7z"));
+System.out.println("SHA256 ----> " + getHMAC_sha256("5e7bb2ff6016bd6a379a2fcd+client_id_j6kV25MAYNUg7u0Xy3eI0tvFirTsmoPWfaGhcHDQ", "client_secret_6yG4kfLwRpreIKNQaW8JOhBAFqnPd9cjTmgbsZ7z"));
 
 
 
 //AWS QA
-// client_id_316MtpjVYJfmxDABn8zbIvPh2lGETo04dOKRayUZ
-//client_secret_U8mPHBAj71n4SoiNtweFIOs6xdRaDWqX0h5VJ3bK
+// client_id_j6kV25MAYNUg7u0Xy3eI0tvFirTsmoPWfaGhcHDQ
+//client_secret_6yG4kfLwRpreIKNQaW8JOhBAFqnPd9cjTmgbsZ7z
 
 
 //SIT
