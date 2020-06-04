@@ -10,6 +10,8 @@ package com.accessmodifiers;
  * 
  * Protected Access Mofifiers --> The access level of Protected access modifier is within the class, outside the class , 
  *                                outside the package but using inheritance concept.
+ * Public --> The access level of a public modifier is everywhere. It can be accessed from within the class, 
+ *            outside the class, within the package and outside the package.
  */
 public class Access 
 {

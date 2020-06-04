@@ -1,4 +1,7 @@
 package com.strings;
+
+import java.util.StringTokenizer;
+
 /**
  * 
  * @author Shekhar
@@ -27,6 +30,11 @@ public class Testimmutablestring {
 		s=s.concat("Raju");// Here 
 		System.out.println(s);
 		System.out.println(s2);
+		StringTokenizer str= new StringTokenizer("I am learning string concept", " ");// But StringTokenizer class is deprecated instead we have to use split function
+		while(str.hasMoreTokens())
+		{
+			System.out.println(str.nextToken());
+		}
 
 	}
 

@@ -12,6 +12,7 @@ public class StringSubstring
 	{
 		String s= "Rajashekar";
 		System.out.println(s.substring(0));//Here Staring Index starts with 0 then it prints all characters present for a string.
+		System.out.println(s.substring(4));
 		System.out.println(s.substring(0, 5)); // Here starting index is 0 means it start with R and endswith 5 means(5-1) upto 5.
 		System.out.println(s.substring(4, 6));
 	}

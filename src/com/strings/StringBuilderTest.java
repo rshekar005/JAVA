@@ -41,6 +41,8 @@ public class StringBuilderTest {
 		
 		System.out.println(builder.indexOf("s", 6)); // It will find the string s after 6th index.
 		
+		
+		
 
 	}
 

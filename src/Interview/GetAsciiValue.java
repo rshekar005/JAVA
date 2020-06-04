@@ -6,7 +6,7 @@ public class GetAsciiValue
 	{
 		char c= 'p';
 		int ascii=c;
-		System.out.println("Ascii value of "+c+ "is "+ascii);
+		System.out.println("Ascii value of "+c+ " is "+ascii);
 	}
 
 }
