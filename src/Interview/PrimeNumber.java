@@ -32,7 +32,7 @@ public class PrimeNumber
 	public static void main(String args[])
 	{
 		//System.out.println(isPrimeNumber(2));
-        System.out.println(isPrimeNumber(8));	
+        System.out.println(isPrimeNumber(2));	
       //  getPrimeNumbers(20);
 	}
 
