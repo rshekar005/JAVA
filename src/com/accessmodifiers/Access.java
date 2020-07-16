@@ -2,6 +2,8 @@ package com.accessmodifiers;
 /**
  * 
  * @author Shekhar
+ * 
+ * It defines the scope of the fields, method. constructor or class
  * Private AccessModifiers --> The access level of a private modifier is only within the class. 
  * It cannot be accessed from outside the class, outside of package.
  * It can be access with the help of getters and setters method
