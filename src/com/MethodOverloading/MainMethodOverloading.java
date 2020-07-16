@@ -20,4 +20,8 @@ public class MainMethodOverloading
 	{
 		System.out.println("Main Method with out arguments");
 	}
+	public static void main(String args[])
+	{
+		System.out.println("Main Mathod with string array arguments");
+	}
 }
