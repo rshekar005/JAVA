@@ -1,0 +1,21 @@
+Readers:
+
+1. FileReaders
+2. BufferedReaders --> Recommended
+
+In FileReader we need to perform typecasting then it will return unicode(ascii) value of characters. So it compulsory to convert typecast.
+By using FileReader we can read data character by character which is not convenient. So, BufferedReader is preferable it uses readLine(). Return type is String
+
+Writters:
+
+1. FileWriter  --> (\n)
+2. BufferedWritter --> nextLine()
+3. PrintWritter  -- > Recommended
+
+
+If we want to handle character data then we should go for Readers and Writters.
+If we want to handle binary data like images, video, audio then we should go Streams. 
+
+Streams:
+1. InputStream --> Read
+2. OutputStream --> Write
