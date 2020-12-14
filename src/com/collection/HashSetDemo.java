@@ -28,7 +28,7 @@ public class HashSetDemo {
 		hashset.add("Pillalamarri");
 		hashset.add("shekar");
 		hashset.add("sdsd");
-		hashset.add("Nishant");
+		hashset.add("Narayana");
 		System.out.println(hashset);//Insertion order is not preserved.
 	}
 

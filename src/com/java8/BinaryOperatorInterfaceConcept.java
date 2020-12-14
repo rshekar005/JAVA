@@ -14,7 +14,7 @@ public class BinaryOperatorInterfaceConcept {
 	
 		BinaryOperator<Integer> b= (x1,x2) -> x1+x2;
 		System.out.println(b.apply(10, 20));
-		
+	
 		BiFunction<Integer, Integer, Integer> b2= (x1,x2) -> x1+x2;
 		System.out.println(b2.apply(10, 60));
 

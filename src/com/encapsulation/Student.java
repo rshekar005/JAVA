@@ -4,6 +4,7 @@ package com.encapsulation;
  * @author Shekhar
  * Encapsulation:  Encapsulation is a process wrapping data and code together into a single unit. 
                    In Encapsulation we declare data members as private variable and need to create getters and setters methods to access over that private data members.
+                   It is also known as data hiding
             Use :  It provides control over the data. Suppose if we want access only to get data members then use getters method.
                    For Exmaple , if we want to set 100 as a value for a particular data member then we can write a logic in a setter method.
  */

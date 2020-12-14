@@ -24,7 +24,6 @@ public class TreeSetDemo {
 		treeset.add("B");
 		treeset.add("C");
 		treeset.add("b");
-		
 		System.out.println(treeset);
 	
 
