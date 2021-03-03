@@ -1,4 +1,7 @@
 package com.aggregation;
+
+import com.accessmodifiers.Access;
+
 /**
  * 
  * @author Shekhar
@@ -7,7 +10,7 @@ package com.aggregation;
  * Why Aggregation -- Code re-usability.
  * 
  */
-public class Address 
+public class Address extends Access
 {
 	String State,City,Country;
 
@@ -16,6 +19,12 @@ public class Address
 		this.City=City;
 		this.State=State;
 		this.Country=Country;
+	}
+	
+	public static void main(String args[]) {
+		Access a = new Access();
+		System.out.println(a.getA());
+		//System.out.println(a.def);
 	}
 
 }

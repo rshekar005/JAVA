@@ -26,7 +26,7 @@ public abstract class Bank
 	int a=10;
 	final int b=20;
 	static int c=30;
-   public abstract void loan(); // abstract method -- No body. we cannot declare method body. 100% abstarction
+   public abstract void loan();// abstract method -- No body. we cannot declare method body. 100% abstarction
    
    public void credit()// Non abstract method
    {

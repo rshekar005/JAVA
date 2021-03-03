@@ -17,7 +17,7 @@ public class NumberGenerator {
 		{
 			String emailvalue=email+String.valueOf(i);
 			String gmail="@gmail.com";
-			System.out.println(emailvalue+gmail);
+			//System.out.println(emailvalue+gmail);
 		}
 	}
 	
@@ -27,15 +27,15 @@ public class NumberGenerator {
 		for(int i=10000;i<=11000;i++)
 		{
 			String ss=String.valueOf(i)+s;
-			System.out.println(ss);
+		//	System.out.println(ss);
 		}
 	}
 	
 	public static void main(String[] args) {
          
-          //mobile();
+          mobile();
           //email();
-		ssn();
+		//ssn();
 	}
 	
 
