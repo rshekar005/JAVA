@@ -20,7 +20,7 @@ public class FileReaderDemo {
 	
 	public static void main(String args[]) throws IOException
 	{
-		//1st constructor
+		//1st constructor. File has to created manually. It will not create automatically.
 		FileReader fr= new FileReader("xyz3.txt");
 		System.out.println(fr.read()); //Return type is int. It will print unicode value of first character which present in above file.Return type is int.
 		int i= fr.read();

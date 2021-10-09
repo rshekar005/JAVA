@@ -12,7 +12,7 @@ import java.util.ListIterator;
  *     -- Duplicates are not allowed.
  *     -- Underlying data structure is Hash table"
  *     -- Insertion will happen based on hashing.
- *     -- Null insertion is possible only once because fuplicate values are not allowed.
+ *     -- Null insertion is possible only once because duplicate values are not allowed.
  *     -- when we add duplicate objects it won't throw C.E and R.E add() simply returns false
  *     
  *

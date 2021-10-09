@@ -38,6 +38,8 @@ public class HashMapCompare {
 		map4.put(3, "C");
 		map4.put(4, "D");
 		
+		
+		
 		//combine the keys from both the hashmaps : using hashset
 		HashSet<Integer> hashset= new HashSet<>(map1.keySet());
 		//Add keyset from map4

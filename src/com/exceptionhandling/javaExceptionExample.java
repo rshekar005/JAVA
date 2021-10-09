@@ -58,6 +58,7 @@ public class javaExceptionExample
 			catch(ArrayIndexOutOfBoundsException a)
 			{
 				System.out.println(a);
+				System.out.println("Catch block");
 			}
 		}
 		finally

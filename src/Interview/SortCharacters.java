@@ -2,7 +2,7 @@ package Interview;
 
 public class SortCharacters 
 {
-	
+	//output: AaBbCcDd
 	public static void main(String args[])
 	{
 		String input="AbBCdcaD";
