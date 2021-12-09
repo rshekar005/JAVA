@@ -2,6 +2,7 @@ package com.strings;
 
 import java.util.HashMap;
 import java.util.Map;
+import java.util.Map.Entry;
 
 public class CountChars {
 	public static void main(String[] args) {
@@ -15,6 +16,10 @@ public class CountChars {
 			}
 		}
 		System.out.println(map);
+		for(Entry<Character, Integer> entry:map.entrySet()) {
+			System.out.print(entry.getKey()+""+entry.getValue());
+		}
+		
 	}
 
 }
