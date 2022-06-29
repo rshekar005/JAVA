@@ -8,7 +8,7 @@ public class ParameterizedConstructor
  */
 	int id;
 	String name;
-    ParameterizedConstructor(int i, String n)//Parametarized constructor
+    public ParameterizedConstructor(int i, String n)//Parametarized constructor
     {
 		id=i;// Here we are setting object values to a variable.
 		name=n;

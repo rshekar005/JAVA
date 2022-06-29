@@ -16,10 +16,9 @@ public class Swap
 		System.out.println("After Swapping "+a+ " and "+b);*/
 		
 		System.out.println("Without temp variable");
+		a=a+b;
+		b=a-b;
 		a=a-b;
-		b=a+b;
-		a=b-a;
-		
 		System.out.println("After Swapping "+a+ " and "+b);
 		
 	}

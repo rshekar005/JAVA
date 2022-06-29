@@ -3,10 +3,10 @@ package com.variables;
 public class InstanceVariable 
 {
 	
-	//A Variable whic is declared inside a class but outside a method is called instance variable. Instance Variable cannot be static
+	//A Variable which is declared inside a class but outside a method is called instance variable. Instance Variable cannot be static
 	String myVar="Instance Varibale";
 
-	public static void main(String args[])
+	public static void main(String[] args)
 	{
 		InstanceVariable obj1=new InstanceVariable();
 		InstanceVariable obj2=new InstanceVariable();

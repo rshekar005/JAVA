@@ -44,7 +44,6 @@ public class HashMapDemo {
 		hmemp.put(1, emp);
 		hmemp.put(2, emp2);
 		hmemp.put(3, emp3);
-		
 		System.out.println(hmemp);
 		
 	}

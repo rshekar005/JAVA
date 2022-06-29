@@ -13,7 +13,7 @@ public class ShiftZeroToRight {
 			if(num!=0) {
 				newArray[count]=num;
 				count++;
-			}	
+			}
 		}
 		System.out.println(Arrays.toString(newArray));
 	}

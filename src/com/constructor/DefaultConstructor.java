@@ -27,7 +27,6 @@ public class DefaultConstructor
 		def.name="Shekar";
 		def.display();
 		
-		
 	}
 
 }

@@ -5,7 +5,7 @@ package com.finaldemo;
  * Final is a variable which is used to restrict the user.
  * 
  * Final Keyword can be used in : Variables -- Compile time error
- *                                Classes   --Parent class Cannot be inherited to child class when we declare a class as final.
+ *                                Classes   --Parent class Cannot be inherited to child class when we declare a parent class as final.
  *                                Method    -- Parent method cannot be override to child class when we declare a parent method as final.
  * 
  * FInal keyword cannot be used for constructor because constructor cannot be inherited.
