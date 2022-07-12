@@ -34,7 +34,6 @@ public class OccurenceOfFirstCount {
         for(Map.Entry<Character,Integer> entry : m.entrySet()){
             if(entry.getValue()==1){
                 System.out.println(entry.getKey());
-                break;
             }
         }
     }
